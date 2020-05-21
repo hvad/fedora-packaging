@@ -3,7 +3,7 @@ MAINTAINER David Hannequin <david.hannequin@gmail.com>
 
 RUN dnf update -y && dnf groupinstall -y "RPM Development Tools" && \
                      dnf -y install sudo automake make cmake vim bash && \
-                     dnf -y install dnf-utils fedpkg pyp2rpm wget && \
+                     dnf -y install dnf-utils fedpkg pyp2rpm wget python3-pbr && \
                      dnf -y install keyutils rpmconf git-all python3-devel && \
                      dnf -y clean all
 
