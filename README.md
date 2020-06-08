@@ -8,7 +8,7 @@
 
 ## Kerberos authentication via keytab file :
 
-### Create a keytab file:
+### Create a keytab file :
 ```
 $ mkdir -p ~/.keytab
 $ ktutil 
@@ -19,5 +19,5 @@ ktutil:  quit
 $ mv <fas-username>.keytab ~/.keytab
 ```
 
-### Check that the Kerberos authentication works:
+### Check that the Kerberos authentication works :
 `$ kinit <fas-username>@FEDORAPROJECT.ORG -k -t ~/.keytab/<fas-username>.key`
