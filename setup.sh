@@ -21,4 +21,4 @@ fi
 
 vim +PluginInstall +quitall
 
-rm -- "$0"
+rm -rf -- "$0"
